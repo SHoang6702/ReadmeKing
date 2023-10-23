@@ -2,58 +2,58 @@
 const fs = require('fs');
 const inquirer =require('inquirer')
 // TODO: Create an array of questions for user input
-const questions = ['#Title', 'Description', 'Table of Contents', 'Installation', 'Usage', 'Credit', 'License', 'Contributing', 'Test', 'Questions'];
+// const questions = ['#Title', 'Description', 'Table of Contents', 'Installation', 'Usage', 'Credit', 'License', 'Contributing', 'Test', 'Questions'];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+// function writeToFile(fileName, data) {
     // fs.writeFIle('./GENERATEDREADME.md', )
-}
+// }
 
 inquirer
   .prompt([
     {
-      type: 'Title',
+      type: 'input',
       name: '#Title',
       message: 'What is the title?',
     },
     {
-      type: 'Description',
+      type: 'input',
       name: '##Description',
       message: 'Describe the application?',
     },
     {
-        type: 'Table of Contents',
+        type: 'input',
         name: '##Table of Contents',
         message: 'What is included?',
     },
     {
-        type: 'Installation',
+        type: 'input',
         name: '##Installation',
         message: 'How do you install?',
     },
     {
-        type: 'Usage',
+        type: 'input',
         name: '##Usage',
         message: 'What are the terms for using the application?',
     },
     {
-        type: 'License',
+        type: 'list',
         message: 'What kind of license is required?',
         name: '##License',
-        choices: ['None', 'Unlicensed', 'Open Software License 3.0', 'Creative Commons license family', 'European Union Public License 1.1']
+        choices: ['None', 'Unlicensed', 'Open Software License 3.0', 'Creative Commons license family', 'European Union Public License 1.1'],
     },
     {
-        type: 'Contributing',
+        type: 'input',
         name: '##Contributing',
         message: 'Who contributed to the project?',
     },
     {
-        type: 'Test',
+        type: 'input',
         name: '##Test',
         message: 'Test?',
     },
     {
-        type: 'Questions',
+        type: 'input',
         name: '##Questions',
         message: 'Github name and Email?',
     },
@@ -68,13 +68,6 @@ inquirer
 
 // TODO: Create a function to initialize app
 function init() {
-    /*
-        start the app
-        console the array of questions to the terminal
-        capture the user input for that question
-    */
-   console.log('Title')
-
     return
 }
 
