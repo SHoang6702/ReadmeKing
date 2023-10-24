@@ -1,4 +1,4 @@
-#ReadmeKing
+# ReadmeKing
 
 The website serves as a way to allow users to generate professional READMEs to their liking. It simplifies the proccess of creating a README through a command line inquiry. 
 
