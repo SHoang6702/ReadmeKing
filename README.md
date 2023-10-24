@@ -18,10 +18,6 @@ Youtube:
 
 https://youtu.be/Vt8qTEejS3A
 
-Screencastify:
-
-
-
 ![Questions](./assets/images/Questions.png)
 
 ## Credits
